@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>auto-pop-test</title>
+
+
+</head>
+
+    <body id="body-page" class="dark:bg-gray-800">
+    <div id="wrapper" class="wrapper flex min-h-[100vh] flex-col ">
+
+        
+        <div class="flex-auto">
+
+                <div >
+                                    <!-- slider -->
+                    <section class=" bg-white dark:bg-gray-900">
+                        <div class="mx-auto max-w-[1290px] px-[15px]">
+                            <div class=" pt-[28px] mx-auto max-w-screen-xl text-center pb-[32px] ">
+                           
+                                    <div class=" block md1:flex  justify-center  gap-[10px]   ">
+                                        <!-- right block -->
+                                        <div class="rounded-lg bg-white md:shadow-md md:px-[23px] py-5 items-start dark:bg-gray-800">
+                                        
+                                            <div class="flex items-center justify-between mb-[14px]">
+                                                <span
+                                                    class="bg-gray-100 text-gray-800 text-base  font-semibold  inline-flex items-center px-2.5 py-0.5 rounded-[6px]  dark:bg-gray-700 dark:text-gray-400">
+                                                    <svg class="w-2.5 h-2.5 mr-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                                        viewBox="0 0 20 20">
+                                                        <path
+                                                            d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm3.982 13.982a1 1 0 0 1-1.414 0l-3.274-3.274A1.012 1.012 0 0 1 9 10V6a1 1 0 0 1 2 0v3.586l2.982 2.982a1 1 0 0 1 0 1.414Z" />
+                                                    </svg>
+                                                    11 Sep, 2023 / 16:00 CET
+                                                </span>
+                                                <div class=" ">
+                                                    <img src="img/auto/logo/copart_logo.svg" alt="logo-copart" class="w-full ">
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                          
+                                        
+                                            <p class="text-sm font-semibold text-gray-900 mb-[14px] dark:text-white">Specify the maximum final cost for the car that you
+                                                are willing to pay.</p>
+                                        
+                                            <div class="flex justify-between  items-center mb-[14px] rounded-md border border-gray-300 bg-primary-100 p-[10px] dark:bg-gray-600">
+                                                <button type="button"
+                                                    class="block lg2:hidden text-white bg-primary-500 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-[13px] py-2 dark:bg-primary-500 dark:hover:bg-primary-500 focus:outline-none dark:focus:ring-primary-800 mr-[15px] btn-minus">
+                                                    -
+                                                </button>
+                                                <button type="button"
+                                                    class="hidden lg2:block text-white bg-primary-500 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-3 py-2 dark:bg-primary-500 dark:hover:bg-primary-500 focus:outline-none dark:focus:ring-primary-800 mr-[36px] btn-minus">
+                                        
+                                                    Decrease</button>
+                                                <div class="relative w-[100%] lg:w-[90%] lg1:w-[90%] lg2:w-[80%] xl:w-[70%] h-[36px]">
+                                                    <form action="#" class="flex items-center">
+                                                        <div class="flex flex-auto">
+                                                            <div
+                                                                class="flex justify-end w-full h-[36px] leading-tight text-base font-semibold w-[54%] smll:w-[70%] sm:w-[80%] md:w-[90%] md1:w-[60%] lg:w-[70%] lg2:w-[60%]
+                                                                border-gray-300 rounded-tl-[8px] rounded-bl-[8px]
+                                                                bg-gray-50 focus:ring-primary-500 focus:border-primary-500
+                                                                dark:bg-gray-700 dark:border-gray-600 
+                                                                dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 pt-[10px] pr-[0px] ">
+                                                                Bid: $
+                                                            </div>
+                                                            <input type="search" id="default-search-1"
+                                                                class="w-full h-[36px]  leading-tight text-base font-semibold
+                                                                placeholder-gray-400 text-left pr-[44px] border-gray-300 rounded-tr-[8px] rounded-br-[8px]
+                                                                bg-gray-50 focus:ring-primary-500 focus:border-primary-500
+                                                                dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
+                                                                dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 pt-[3px]"
+                                                                placeholder="" required="" value="20.000">
+                                                        </div>
+                                        
+                                                        <button type="submit"
+                                                            class=" justify-end absolute right-0 bottom-[0px] bg-primary-500 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 text-xs rounded-r-lg text-white font-medium px-4 h-full dark:bg-primary-500 dark:hover:bg-primary-500 dark:focus:ring-primary-800 pt-[2px]">
+                                                            Place
+                                                        </button>
+                                                    </form>
+                                                </div>
+                                        
+                                        
+                                        
+                                                <button type="button"
+                                                    class="block lg2:hidden text-white bg-primary-500 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-3 py-2 dark:bg-primary-500 dark:hover:bg-primary-500 focus:outline-none dark:focus:ring-primary-800 ml-[15px] btn-plus">
+                                                    +
+                                                </button>
+                                                <button type="button"
+                                                    class="hidden lg2:block text-white bg-primary-500 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-3 py-2 dark:bg-primary-500 dark:hover:bg-primary-500 focus:outline-none dark:focus:ring-primary-800 ml-[36px] btn-plus">
+                                        
+                                                    Increase</button>
+                                            </div>
+                                        
+                                            <div>
+                                                                            
+                                            </div>
+                                        
+                                        
+                                        
+                                        
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
+                                    
+                                    <!-- Detailed information -->
+                     <div class="bg-white dark:bg-gray-900 ">
+                        <div class="mx-auto max-w-[1290px] px-[15px]">
+                            <div class="mx-auto  pb-[32px]  mt-[-2px]">
+                                <h2 class="text-center text-2xl font-medium mb-[25px] dark:text-white">Detailed information:</h2>
+                            
+                                <div class="block lg1:flex justify-center">
+                                    
+                                    <div class="block w-[100%] lg1:w-[43%]">
+                                        <!-- 8.500 13.500 -->
+                                        
+                            
+                            
+                                        <!-- select + final -->
+                                        <div class="block md:flex gap-[27px] rounded-[8px] justify-between bg-white  p-5 dark:bg-gray-800"
+                                            style="box-shadow: 0px 2px 3px -1px rgba(0, 0, 0, 0.10), 0px 2px 4px 0px rgba(0, 0, 0, 0.10);">
+                            
+                                            <!-- select -->
+                                            <div class="w-[100%]">
+                                                <div class="flex items-center gap-2 mb-[8px]">
+                                                    <p class="leading-tight text-sm font-medium text-gray-900 dark:text-white">Select delivery country</p>
+                                                    <div>
+                                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M15.7 9.50005C15.7 11.277 14.9942 12.9812 13.7377 14.2377C12.4812 15.4942 10.777 16.2 9.00005 16.2C7.2231 16.2 5.51893 15.4942 4.26243 14.2377C3.00594 12.9812 2.30005 11.277 2.30005 9.50005C2.30005 7.7231 3.00594 6.01893 4.26243 4.76243C5.51893 3.50594 7.2231 2.80005 9.00005 2.80005C10.777 2.80005 12.4812 3.50594 13.7377 4.76243C14.9942 6.01893 15.7 7.7231 15.7 9.50005ZM9.99 6.89C10.2526 6.62745 10.4 6.27135 10.4 5.90005C10.4 5.52875 10.2526 5.17265 9.99 4.9100C9.72745 4.64755 9.37135 4.50005 9.00005 4.50005C8.62875 4.50005 8.27265 4.64755 8.0100 4.9100C7.74755 5.17265 7.60005 5.52875 7.60005 5.90005C7.60005 6.27135 7.74755 6.62745 8.0100 6.89C8.27265 7.15255 8.62875 7.30005 9.00005 7.30005C9.37135 7.30005 9.72745 7.15255 9.99 6.89ZM8.10005 8.10005C7.72875 8.10005 7.37265 8.24755 7.1100 8.5100C6.84755 8.77265 6.70005 9.12875 6.70005 9.50005C6.70005 9.87135 6.84755 10.2274 7.1100 10.49C7.25062 10.6305 7.41794 10.7381 7.60005 10.8077V13.1C7.60005 13.4714 7.74755 13.8274 8.0100 14.09C8.27265 14.3525 8.62875 14.5 9.00005 14.5H9.90005C10.2714 14.5 10.6274 14.3525 10.89 14.09C11.1525 13.8274 11.3 13.4714 11.3 13.1C11.3 12.7287 11.1525 12.3727 10.89 12.1100C10.7495 11.9696 10.5822 11.862 10.4 11.7924V9.50005C10.4 9.12875 10.2526 8.77265 9.99 8.5100C9.72745 8.24755 9.37135 8.10005 9.00005 8.10005H8.10005Z"
+                                                                fill="#9CA3AF" stroke="#9CA3AF" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                            
+                                                <!-- Select country -->
+                            
+                                                <div class="mt-[15px] mb-[15px] relative">
+                            
+                            
+                                                    <select id="countries"
+                                                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm font-normal rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                                        <option id="germany" selected value="$4000">Germany</option>
+                                                        <option id="united-states" value="$1000">United States</option>
+                                                        <option id="canada" value="$2000">Canada</option>
+                                                        <option id="france" value="$3000">France</option>
+                            
+                                                    </select>
+                            
+                            
+                            
+                            
+                            
+                            
+                                                </div>
+                                                <!-- тогле -->
+                                                <div class="mb-3 md:mb-0 relative">
+                                                    <label class="relative inline-flex items-center cursor-pointer">
+                                                        <input type="checkbox" value="checked" class="sr-only peer" checked>
+                                                        <!-- Добавляем атрибут checked здесь -->
+                                                        <span
+                                                            class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-primary-300 dark:peer-focus:ring-primary-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-primary-500">
+                                                        </span>
+                                                    </label>
+                            
+                                                    <div class="absolute top-[-4px] right-[17px]">
+                                                        <span class=" text-sm font-medium text-gray-900 dark:text-gray-300 ">Add delivery
+                                                            insurance</span>
+                                                        <p class="  text-xs font-normal text-gray-500 ">For the whole freight cycle</p>
+                                                    </div>
+                            
+                                                </div>
+                            
+                            
+                            
+                                            </div>
+                            
+                            
+                            
+                            
+                                            <!-- final -->
+                                            <div class="w-[100%]">
+                                                <div class="flex items-center gap-2 mb-[12px]">
+                                                    <p class="text-sm font-medium text-gray-900 dark:text-white">Final cost calculation</p>
+                                                    <div>
+                                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M15.7 9.50005C15.7 11.277 14.9942 12.9812 13.7377 14.2377C12.4812 15.4942 10.777 16.2 9.00005 16.2C7.2231 16.2 5.51893 15.4942 4.26243 14.2377C3.00594 12.9812 2.30005 11.277 2.30005 9.50005C2.30005 7.7231 3.00594 6.01893 4.26243 4.76243C5.51893 3.50594 7.2231 2.80005 9.00005 2.80005C10.777 2.80005 12.4812 3.50594 13.7377 4.76243C14.9942 6.01893 15.7 7.7231 15.7 9.50005ZM9.99 6.89C10.2526 6.62745 10.4 6.27135 10.4 5.90005C10.4 5.52875 10.2526 5.17265 9.99 4.9100C9.72745 4.64755 9.37135 4.50005 9.00005 4.50005C8.62875 4.50005 8.27265 4.64755 8.0100 4.9100C7.74755 5.17265 7.60005 5.52875 7.60005 5.90005C7.60005 6.27135 7.74755 6.62745 8.0100 6.89C8.27265 7.15255 8.62875 7.30005 9.00005 7.30005C9.37135 7.30005 9.72745 7.15255 9.99 6.89ZM8.10005 8.10005C7.72875 8.10005 7.37265 8.24755 7.1100 8.5100C6.84755 8.77265 6.70005 9.12875 6.70005 9.50005C6.70005 9.87135 6.84755 10.2274 7.1100 10.49C7.25062 10.6305 7.41794 10.7381 7.60005 10.8077V13.1C7.60005 13.4714 7.74755 13.8274 8.0100 14.09C8.27265 14.3525 8.62875 14.5 9.00005 14.5H9.90005C10.2714 14.5 10.6274 14.3525 10.89 14.09C11.1525 13.8274 11.3 13.4714 11.3 13.1C11.3 12.7287 11.1525 12.3727 10.89 12.1100C10.7495 11.9696 10.5822 11.862 10.4 11.7924V9.50005C10.4 9.12875 10.2526 8.77265 9.99 8.5100C9.72745 8.24755 9.37135 8.10005 9.00005 8.10005H8.10005Z"
+                                                                fill="#9CA3AF" stroke="#9CA3AF" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="bg-gray-100 text-gray-800 rounded dark:bg-gray-700 dark:text-gray-300 text-sm font-medium  px-[10px] py-[2px] flex justify-between mb-[5px]">
+                                                    <span>Auction fee:</span>
+                                                    <span id="auction-fee">$</span>
+                                                </div>
+                                                <div
+                                                    class="bg-gray-100 text-gray-800 rounded dark:bg-gray-700 dark:text-gray-300 text-sm font-medium  px-[10px] py-[2px] flex justify-between mb-[5px]">
+                                                    <span>Final car price:</span>
+                                                    <span id="final-price">$</span>
+                                                </div>
+                                                <div
+                                                    class="bg-gray-100 text-gray-800 rounded dark:bg-gray-700 dark:text-gray-300 text-sm font-medium  px-[10px] py-[2px] flex justify-between mb-[5px]">
+                                                    <span>Delivery price:</span>
+                                                    <span id="delivery-price">$</span>
+                                                </div>
+                                                <div
+                                                    class="bg-gray-100 text-gray-800 rounded dark:bg-gray-700 dark:text-gray-300 text-sm font-medium  px-[10px] py-[2px] flex justify-between">
+                                                    <span>Total:</span>
+                                                    <span id="total">$</span>
+                                                </div>
+                            
+                                            </div>
+                            
+                                        </div>
+                            
+                            
+                            
+                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+             
+                                    
+                          
+
+
+                </div>
+        </div>  
+     
+    </div>
+
+
+
+                <!--  -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.js"></script>
+        <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+        <script src="js/main-js.js"></script>
+        <script src="js/calc-js-test.js"></script>
+        <script src="js/auto-script.js"></script>
+        <script src="js/modal.js"></script>
+    </body>
+
+</html>

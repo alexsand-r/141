@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>auto-pop-view-more</title>
+
+
+</head>
+
+<body id="body-page" class="dark:bg-gray-800">
+    <div id="wrapper" class="wrapper flex min-h-[100vh] flex-col ">
+
+
+        <div class="flex-auto">
+
+            <div>
+                <!--! Vehicle configuration based on decoding data from the VIN code -->
+                <div class="bg-white dark:bg-gray-900 pb-10">
+                    <div class="mx-auto max-w-[1290px] px-[15px]">
+                        <div class="rounded-lg border border-gray-200 flex flex-col gap-y-3 view-box">
+                            <h2
+                                class="bg-[#F9FAFB] px-3 py-2 text-base font-medium leading-normal text-gray-900 rounded-t-lg">
+                                Vehicle configuration based on decoding data from the VIN code</h2>
+
+                            <div class="px-3 pb-3 relative">
+                                <p class="text-primary-600 text-base font-medium leading-tight mb-[6px]">Interior</p>
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span> Audi Guard Protection Kit</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span> All-weather floor mats;
+                                        Cargo mat; Touchscreen cleaning cloth</p>
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-200 mt-3 absolute bottom-0 left-0"></div>
+
+                            </div>
+
+                            <div class="px-3 pb-3 relative">
+
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>Bang & Olufsen 3D Advanced Sound
+                                        System</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span>23 speakers, each with their
+                                        own aluminum speaker cover; 23-channel amplifier with a total output of 1920
+                                        watts; 2
+                                        automatically extending acoustic lenses on the instrument panel
+                                    </p>
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-200 mt-3 absolute bottom-0 left-0"></div>
+                            </div>
+
+                            <div class="px-3 pb-3 relative block-hid hidden">
+
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>Black Cloth Headliner</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span> All
+                                    </p>
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-200 mt-3 absolute bottom-0 left-0"></div>
+
+                            </div>
+
+                            <div class="px-3 pb-3 relative block-hid hidden">
+
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>Black Cloth Headliner</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span> 111222222
+                                    </p>
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-200 mt-3 absolute bottom-0 left-0"></div>
+
+                            </div>
+
+                            <button type="button" onclick="viewContent(this)"
+                                class="text-black flex gap-x-2 items-center text-sm font-medium leading-tight text-gray-500 pb-3 px-3 py-3 bg-[#F9FAFB] w-full flex justify-center mt-[-13px] relative z-10 click-btn">
+                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2087_166588)">
+                                        <path
+                                            d="M7.49998 8.89961C7.87128 8.89961 8.22737 8.75211 8.48992 8.48956C8.75248 8.22701 8.89998 7.87091 8.89998 7.49961C8.89998 7.12831 8.75248 6.77221 8.48992 6.50966C8.22737 6.24711 7.87128 6.09961 7.49998 6.09961C7.12867 6.09961 6.77258 6.24711 6.51003 6.50966C6.24748 6.77221 6.09998 7.12831 6.09998 7.49961C6.09998 7.87091 6.24748 8.22701 6.51003 8.48956C6.77258 8.75211 7.12867 8.89961 7.49998 8.89961Z"
+                                            fill="#6B7280" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0.820557 7.49961C1.71236 4.65971 4.36536 2.59961 7.49996 2.59961C10.6346 2.59961 13.2876 4.65971 14.1794 7.49961C13.2876 10.3395 10.6346 12.3996 7.49996 12.3996C4.36536 12.3996 1.71236 10.3395 0.820557 7.49961ZM10.3 7.49961C10.3 8.24222 10.005 8.95441 9.47986 9.47951C8.95475 10.0046 8.24256 10.2996 7.49996 10.2996C6.75735 10.2996 6.04516 10.0046 5.52006 9.47951C4.99496 8.95441 4.69996 8.24222 4.69996 7.49961C4.69996 6.757 4.99496 6.04481 5.52006 5.51971C6.04516 4.99461 6.75735 4.69961 7.49996 4.69961C8.24256 4.69961 8.95475 4.99461 9.47986 5.51971C10.005 6.04481 10.3 6.757 10.3 7.49961Z"
+                                            fill="#6B7280" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2087_166588">
+                                            <rect width="14" height="14" fill="white" transform="translate(0.5 0.5)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg> <span class="view-text">View All</span>
+                            </button>
+
+                            <!-- вторая таблица -->
+                            <div class="px-3 pb-3 relative">
+                                <p class="text-primary-600 text-base font-medium leading-tight mb-[6px]">Package</p>
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>Prestige</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span>Comfort adaptive air
+                                        suspension; Executive Package (heated rear seats, power rear side windows and
+                                        manual tailgate
+                                        sunshades, dual-pane acoustic glass for side windows); Head-up display; Remote
+                                        park assist plus; Power soft-closing
+                                        doors; Traffic sign recognition and intersection assist; Bang & Olufsen® sound
+                                        system with 3D sound with 17 speakers and
+                                        a 16-channel, 730-watt amplifier; Contour/ambient LED interior lighting package
+                                        (multicolor); Convenience Package (Audi
+                                        Adaptive Cruise Assist with Lane Guidance, Audi Phone Box with wireless charging
+                                        and signal booster, heated steering
+                                        wheel, Top View camera system with Virtual 360 View); Front seats with
+                                        ventilation and 4-way power lumbar for passenger;
+                                        Four-zone automatic climate control; Illuminated door sills
+                                    </p>
+                                    <p><span class="text-black mr-[5px]">Avialability:</span>Prest</p>
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-200 mt-3 absolute bottom-0 left-0"></div>
+
+                            </div>
+
+                            <div class="px-3 pb-3 relative">
+
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>S Line Plus Package</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span>22\" 5 V-spoke Star design
+                                        Bi-color finish wheels with 285/40R22 all-season tires; Red brake calipers;
+                                        High-gloss black
+                                        exterior elements (mask, window surrounds, front and rear bumpers); Black roof
+                                        rails
+                                    </p>
+                                    <p><span class="text-black mr-[5px]">Avialability:</span>Prem Plus/Prest</p>
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-200 mt-3 absolute bottom-0 left-0"></div>
+                            </div>
+
+                            <div class="px-3 pb-3 hidden block-hid">
+                                <p class="text-primary-600 text-base font-medium leading-tight mb-[6px]">Package</p>
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>Prestige</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span>omfort adaptive air
+                                        suspension; Executive Package (heated rear seats, power rear side windows and
+                                        manual tailgate
+                                        sunshades, dual-pane acoustic glass for side windows); Head-up display; Remote
+                                        park assist plus; Power soft-closing
+                                        doors; Traffic sign recognition and intersection assist; Bang & Olufsen® sound
+                                        system with 3D sound with 17 speakers and
+                                        a 16-channel, 730-watt amplifier; Contour/ambient LED interior lighting package
+                                        (multicolor); Convenience Package (Audi
+                                        Adaptive Cruise Assist with Lane Guidance, Audi Phone Box with wireless charging
+                                        and signal booster, heated steering
+                                        wheel, Top View camera system with Virtual 360 View); Front seats with
+                                        ventilation and 4-way power lumbar for passenger;
+                                        Four-zone automatic climate control; Illuminated door sills
+                                    </p>
+                                </div>
+
+
+                            </div>
+                            <div class="px-3 pb-3 hidden block-hid">
+                                <p class="text-primary-600 text-base font-medium leading-tight mb-[6px]">Package</p>
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>Prestige</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span>omfort adaptive air
+                                        suspension; Executive Package (heated rear
+                                        seats, power rear side windows and manual tailgate
+                                        sunshades, dual-pane acoustic glass for side windows); Head-up display; Remote
+                                        park assist plus; Power
+                                        soft-closing
+                                        doors; Traffic sign recognition and intersection assist; Bang & Olufsen® sound
+                                        system with 3D sound with 17
+                                        speakers and
+                                        a 16-channel, 730-watt amplifier; Contour/ambient LED interior lighting package
+                                        (multicolor); Convenience
+                                        Package (Audi
+                                        Adaptive Cruise Assist with Lane Guidance, Audi Phone Box with wireless charging
+                                        and signal booster, heated
+                                        steering
+                                        wheel, Top View camera system with Virtual 360 View); Front seats with
+                                        ventilation and 4-way power lumbar
+                                        for passenger;
+                                        Four-zone automatic climate control; Illuminated door sills
+                                    </p>
+                                </div>
+
+
+                            </div>
+                            <button type="button" onclick="viewContent(this)"
+                                class="text-black flex gap-x-2 items-center text-sm font-medium leading-tight text-gray-500 pb-3 px-3 py-3 bg-[#F9FAFB] w-full flex justify-center mt-[-13px] relative z-10 rounded-b-lg click-btn">
+                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2087_166588)">
+                                        <path
+                                            d="M7.49998 8.89961C7.87128 8.89961 8.22737 8.75211 8.48992 8.48956C8.75248 8.22701 8.89998 7.87091 8.89998 7.49961C8.89998 7.12831 8.75248 6.77221 8.48992 6.50966C8.22737 6.24711 7.87128 6.09961 7.49998 6.09961C7.12867 6.09961 6.77258 6.24711 6.51003 6.50966C6.24748 6.77221 6.09998 7.12831 6.09998 7.49961C6.09998 7.87091 6.24748 8.22701 6.51003 8.48956C6.77258 8.75211 7.12867 8.89961 7.49998 8.89961Z"
+                                            fill="#6B7280" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0.820557 7.49961C1.71236 4.65971 4.36536 2.59961 7.49996 2.59961C10.6346 2.59961 13.2876 4.65971 14.1794 7.49961C13.2876 10.3395 10.6346 12.3996 7.49996 12.3996C4.36536 12.3996 1.71236 10.3395 0.820557 7.49961ZM10.3 7.49961C10.3 8.24222 10.005 8.95441 9.47986 9.47951C8.95475 10.0046 8.24256 10.2996 7.49996 10.2996C6.75735 10.2996 6.04516 10.0046 5.52006 9.47951C4.99496 8.95441 4.69996 8.24222 4.69996 7.49961C4.69996 6.757 4.99496 6.04481 5.52006 5.51971C6.04516 4.99461 6.75735 4.69961 7.49996 4.69961C8.24256 4.69961 8.95475 4.99461 9.47986 5.51971C10.005 6.04481 10.3 6.757 10.3 7.49961Z"
+                                            fill="#6B7280" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2087_166588">
+                                            <rect width="14" height="14" fill="white" transform="translate(0.5 0.5)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg><span class="view-text">View All</span>
+                            </button>
+                            <!-- третья таблица -->
+                            <div class="px-3 pb-3 relative">
+                                <p class="text-primary-600 text-base font-medium leading-tight mb-[6px]">Package</p>
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>Prestige</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span>Comfort adaptive air
+                                        suspension; Executive Package
+                                        (heated rear seats, power rear side windows and manual tailgate
+                                        sunshades, dual-pane acoustic glass for side windows); Head-up display; Remote
+                                        park assist plus; Power
+                                        soft-closing
+                                        doors; Traffic sign recognition and intersection assist; Bang & Olufsen® sound
+                                        system with 3D sound with 17
+                                        speakers and
+                                        a 16-channel, 730-watt amplifier; Contour/ambient LED interior lighting package
+                                        (multicolor); Convenience
+                                        Package (Audi
+                                        Adaptive Cruise Assist with Lane Guidance, Audi Phone Box with wireless charging
+                                        and signal booster, heated
+                                        steering
+                                        wheel, Top View camera system with Virtual 360 View); Front seats with
+                                        ventilation and 4-way power lumbar
+                                        for passenger;
+                                        Four-zone automatic climate control; Illuminated door sills
+                                    </p>
+                                    <p><span class="text-black mr-[5px]">Avialability:</span>Prest</p>
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-200 mt-3 absolute bottom-0 left-0"></div>
+
+                            </div>
+
+                            <div class="px-3 pb-3 relative">
+
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>S Line Plus Package</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span>22\" 5 V-spoke Star design
+                                        Bi-color finish wheels with
+                                        285/40R22 all-season tires; Red brake calipers; High-gloss black
+                                        exterior elements (mask, window surrounds, front and rear bumpers); Black roof
+                                        rails
+                                    </p>
+                                    <p><span class="text-black mr-[5px]">Avialability:</span>Prem Plus/Prest</p>
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-200 mt-3 absolute bottom-0 left-0"></div>
+                            </div>
+
+                            <div class="px-3 pb-3 hidden block-hid">
+                                <p class="text-primary-600 text-base font-medium leading-tight mb-[6px]">Package</p>
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>Prestige</p>
+                                    <p><span class="text-black mr-[5px]">Description:</span>omfort adaptive air
+                                        suspension; Executive Package
+                                        (heated rear seats, power rear side windows and manual tailgate
+                                        sunshades, dual-pane acoustic glass for side windows); Head-up display; Remote
+                                        park assist plus; Power
+                                        soft-closing
+                                        doors; Traffic sign recognition and intersection assist; Bang & Olufsen® sound
+                                        system with 3D sound with 17
+                                        speakers and
+                                        a 16-channel, 730-watt amplifier; Contour/ambient LED interior lighting package
+                                        (multicolor); Convenience
+                                        Package (Audi
+                                        Adaptive Cruise Assist with Lane Guidance, Audi Phone Box with wireless charging
+                                        and signal booster, heated
+                                        steering
+                                        wheel, Top View camera system with Virtual 360 View); Front seats with
+                                        ventilation and 4-way power lumbar
+                                        for passenger;
+                                        Four-zone automatic climate control; Illuminated door sills
+                                    </p>
+                                </div>
+
+
+                            </div>
+                            <div class="px-3 pb-3 hidden block-hid">
+                                <p class="text-primary-600 text-base font-medium leading-tight mb-[6px]">Package</p>
+                                <div class="text-sm font-medium leading-tight text-gray-500 flex flex-col gap-y-[5px]">
+                                    <p><span class="text-black mr-[5px]">Name:</span>Prestige</p>
+                                    <p><span
+                                            class="text-black mr-[5px]">Description:</span>111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+                                    </p>
+                                </div>
+
+
+                            </div>
+                            <button type="button" onclick="viewContent(this)"
+                                class="text-black flex gap-x-2 items-center text-sm font-medium leading-tight text-gray-500 pb-3 px-3 py-3 bg-[#F9FAFB] w-full flex justify-center mt-[-13px] relative z-10 rounded-b-lg click-btn">
+                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2087_166588)">
+                                        <path
+                                            d="M7.49998 8.89961C7.87128 8.89961 8.22737 8.75211 8.48992 8.48956C8.75248 8.22701 8.89998 7.87091 8.89998 7.49961C8.89998 7.12831 8.75248 6.77221 8.48992 6.50966C8.22737 6.24711 7.87128 6.09961 7.49998 6.09961C7.12867 6.09961 6.77258 6.24711 6.51003 6.50966C6.24748 6.77221 6.09998 7.12831 6.09998 7.49961C6.09998 7.87091 6.24748 8.22701 6.51003 8.48956C6.77258 8.75211 7.12867 8.89961 7.49998 8.89961Z"
+                                            fill="#6B7280" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0.820557 7.49961C1.71236 4.65971 4.36536 2.59961 7.49996 2.59961C10.6346 2.59961 13.2876 4.65971 14.1794 7.49961C13.2876 10.3395 10.6346 12.3996 7.49996 12.3996C4.36536 12.3996 1.71236 10.3395 0.820557 7.49961ZM10.3 7.49961C10.3 8.24222 10.005 8.95441 9.47986 9.47951C8.95475 10.0046 8.24256 10.2996 7.49996 10.2996C6.75735 10.2996 6.04516 10.0046 5.52006 9.47951C4.99496 8.95441 4.69996 8.24222 4.69996 7.49961C4.69996 6.757 4.99496 6.04481 5.52006 5.51971C6.04516 4.99461 6.75735 4.69961 7.49996 4.69961C8.24256 4.69961 8.95475 4.99461 9.47986 5.51971C10.005 6.04481 10.3 6.757 10.3 7.49961Z"
+                                            fill="#6B7280" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2087_166588">
+                                            <rect width="14" height="14" fill="white" transform="translate(0.5 0.5)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg><span class="view-text">View All</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ---------------------------- -->
+                <div class="bg-white dark:bg-gray-900 pb-10">
+                    <div class="mx-auto max-w-[1290px] px-[15px] text-lg view-box">
+                        <div>text</div>
+                        <div>text</div>
+                        <div class="hidden block-hid">text-111</div>
+                        <div class="hidden block-hid">text-111</div>
+                        <button class="click-btn" onclick="viewContent(this)">
+                            <span class="view-text">View All</span>
+                        </button>
+                        <div>text</div>
+                        <div>text</div>
+                        <div class="hidden block-hid">text-222</div>
+                        <div class="hidden block-hid">text-222</div>
+                        <button class="click-btn" onclick="viewContent(this)">
+                            <span class="view-text">View All</span>
+                        </button>
+                        <div>text</div>
+                        <div>text</div>
+                        <div class="hidden block-hid">text-333</div>
+                        <div class="hidden block-hid">text-333</div>
+                        <button class="click-btn" onclick="viewContent(this)">
+                            <span class="view-text">View All</span>
+                        </button>
+                    </div>
+                </div>;
+
+               
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.4/nouislider.min.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script src="js/main-js.js"></script>
+    <script src="js/calc-js.js"></script>
+    <script src="js/auto-script.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
